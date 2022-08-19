@@ -16,7 +16,8 @@
 h1,
 h2,
 h3,
-h4 p {
+h4,
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -50,12 +51,14 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-
-background-color: brown;
-
 }
 
 /* ====== HEADER ====== */
+
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 .page-header-container {
   display: flex;
@@ -69,14 +72,15 @@ background-color: brown;
 
 .menu {
   display: flex;
+  column-gap: 50px;
 }
 
 .menu-list-contact {
   display: flex;
 }
 
-.page-logo{
-  margin-right: 95px;
+.page-logo {
+  margin-right: 93px;
 }
 
 .page-logo {
@@ -112,21 +116,24 @@ background-color: brown;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: var(--grey-accent-color);
+  margin-right: 50px;
 }
 
 .contact-mail:hover,
 .contact-mail:focus {
   color: var(--accent-color);
 }
+.menu-list-contact {
+  margin-left: auto;
+}
 .contact-phone-number {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: var(--grey-accent-color);
+  
 }
 .contact-phone-number:hover,
 .contact-phone-number:focus {
@@ -147,7 +154,6 @@ background-color: brown;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   color: var(--white-accent-color);
 }
 .title-advantages,
@@ -171,6 +177,15 @@ background-color: brown;
   background: var(--blue-background-accent-color);
 }
 
+/* ADVANTAGES */
+.advantages-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.advantages {
+display: flex;
+}
+
 .tertiary-title-specialty {
   font-weight: 700;
   font-size: 14px;
@@ -182,9 +197,24 @@ background-color: brown;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
   color: var(--grey-accent-color);
 }
+
+/* SPECIALIZATION */
+.specialization-section {
+  padding-top: auto;
+  padding-bottom: 94px;
+}
+.specialization {
+  display: flex;
+  gap: 30px;
+}
+
+
+.title {
+  margin-bottom: 50px;
+}
+
 .title-work {
   font-weight: 700;
   font-size: 36px;
@@ -192,7 +222,7 @@ background-color: brown;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.section-team {
+.team-section {
   background-color: var(--white-background-accent-color);
 }
 
