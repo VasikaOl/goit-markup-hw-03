@@ -1,4 +1,4 @@
-/* Accent color */
+/* ACCENT COLOR */
 :root {
   --primery-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
@@ -44,7 +44,6 @@ img {
   list-style: none;
 }
 
-/* Arrangement of elements */
 .container {
   width: 1200px;
   margin-left: auto;
@@ -53,36 +52,29 @@ img {
   padding-right: 15px;
 }
 
-/* ====== HEADER ====== */
-
+/* HEADER */
 .page-header {
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 25px;
 }
-
 .page-header-container {
   display: flex;
   align-items: center;
 }
-
 .page-navigation {
   display: flex;
   align-items: center;
 }
-
 .menu {
   display: flex;
   column-gap: 50px;
 }
-
 .menu-list-contact {
   display: flex;
 }
-
 .header-page-logo {
   margin-right: 93px;
 }
-
 .page-logo {
   font-family: 'Raleway';
   font-style: normal;
@@ -90,7 +82,6 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
   color: var(--accent-color);
 }
 .logo-studio {
@@ -106,7 +97,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--dark-accent-color);
 }
-
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
@@ -119,7 +109,6 @@ img {
   color: var(--grey-accent-color);
   margin-right: 50px;
 }
-
 .contact-mail:hover,
 .contact-mail:focus {
   color: var(--accent-color);
@@ -133,26 +122,25 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--grey-accent-color);
-
 }
-
 .contact-phone-number:hover,
 .contact-phone-number:focus {
   color: var(--accent-color);
 }
-
 .hero-section,
 .footer {
   background: var(--dark-background-accent-color);
+}
+.title-advantages,
+.title-portfolio {
+  display: none;
 }
 
 /* HERO */
 .hero-section {
   padding-top: 200px;
   padding-bottom: 200px;
-  
 }
-
 .hero-title {
   display: block;
   text-align: center;
@@ -160,16 +148,13 @@ img {
   margin-left: auto;
   width: 696px;
   margin-bottom: 30px;
-
 }
-
 .modal-open-btn {
   display: block;
   margin-right: auto;
   margin-left: auto;
   padding: 10px 32px;
-} 
-
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -177,13 +162,7 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-accent-color);
-  
 }
-.title-advantages,
-.title-portfolio {
-  display: none;
-}
-
 .modal-open-btn {
   font-weight: 700;
   font-size: 16px;
@@ -193,20 +172,18 @@ img {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  
 }
-
 .modal-open-btn:hover,
 .modal-open-btn:focus {
   background: var(--blue-background-accent-color);
 }
-
 .title {
   margin-bottom: 50px;
 }
 
 /* ADVANTAGES */
-.advantages-section {
+.advantages-section,
+.portfolio-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -306,7 +283,6 @@ img {
   color: var(--white-accent-color);
 }
 
-
 .address-link {
   font-style: normal;
   font-size: 14px;
@@ -327,11 +303,25 @@ img {
 .address-contact:focus {
   color: var(--accent-color);
 }
+
+/* PORTFOLIO */
+.portfolio-menu {
+  display: flex;
+  column-gap: 8px;
+  margin-bottom: 50px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  }
+  .portfolio-card {
+    flex-basis: calc((100% - 60px) / 3);
+  }
 .portfolio-open-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-
   background: var(--white-background-accent-color);
   border-radius: 4px;
 }
