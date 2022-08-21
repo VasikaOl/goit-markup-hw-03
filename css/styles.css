@@ -10,7 +10,7 @@
   --dark-background-accent-color: #2f303a;
   --blue-background-accent-color: #188ce8;
   --white-background-accent-color: #f5f4fa;
-  --white-border-color: #eeeeee;
+  --white-border-color: #EEEEEE;
 }
 
 /* Dropping */
@@ -55,7 +55,7 @@ img {
 .page-header {
   padding-top: 24px;
   padding-bottom: 25px;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid #ECECEC;
 }
 .page-header-container {
   display: flex;
@@ -148,14 +148,7 @@ img {
   margin-left: auto;
   width: 696px;
   margin-bottom: 30px;
-}
-.modal-open-btn {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 10px 32px;
-}
-.hero-title {
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -164,6 +157,10 @@ img {
   color: var(--white-accent-color);
 }
 .modal-open-btn {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 32px; */
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -210,7 +207,6 @@ img {
 }
 
 /* SPECIALIZATION */
-
 .specialization {
   display: flex;
   gap: 30px;
@@ -221,6 +217,10 @@ img {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.section-specialization {
+  padding-top: auto;
+  padding-bottom: 94px;
 }
 
 /* TEAM */
@@ -302,21 +302,18 @@ img {
   display: flex;
   column-gap: 8px;
   margin-bottom: 50px;
+  justify-content: center;
 }
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-.portfolio-menu {
-  display: flex;
-  justify-content: center;
-}
 .portfolio-card {
   flex-basis: calc((100% - 60px) / 3);
 }
 .text-border {
-  border: 1px solid var(--white-border-color);
+border: 1px solid var(--white-border-color);
 }
 .portfolio-open-btn {
   font-weight: 500;
@@ -338,7 +335,6 @@ img {
   color: var(--dark-accent-color);
   margin-bottom: 4px;
 }
-
 .portfolio-img-name {
   font-size: 16px;
   line-height: 1.88;
@@ -346,7 +342,6 @@ img {
 
   color: var(--grey-accent-color);
 }
-
 .border-button {
   border: none;
 }
