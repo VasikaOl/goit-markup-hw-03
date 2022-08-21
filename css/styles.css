@@ -10,7 +10,7 @@
   --dark-background-accent-color: #2f303a;
   --blue-background-accent-color: #188ce8;
   --white-background-accent-color: #f5f4fa;
-  --white-border-color: #EEEEEE;
+  --white-border-color: #eeeeee;
 }
 
 /* Dropping */
@@ -55,7 +55,7 @@ img {
 .page-header {
   padding-top: 24px;
   padding-bottom: 25px;
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 .page-header-container {
   display: flex;
@@ -148,7 +148,6 @@ img {
   margin-left: auto;
   width: 696px;
   margin-bottom: 30px;
-  
 }
 .modal-open-btn {
   display: block;
@@ -317,7 +316,7 @@ img {
   flex-basis: calc((100% - 60px) / 3);
 }
 .text-border {
-border: 1px solid var(--white-border-color);
+  border: 1px solid var(--white-border-color);
 }
 .portfolio-open-btn {
   font-weight: 500;
@@ -346,4 +345,8 @@ border: 1px solid var(--white-border-color);
   letter-spacing: 0.03em;
 
   color: var(--grey-accent-color);
+}
+
+.border-button {
+  border: none;
 }
