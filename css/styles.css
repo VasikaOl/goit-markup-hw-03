@@ -10,6 +10,7 @@
   --dark-background-accent-color: #2f303a;
   --blue-background-accent-color: #188ce8;
   --white-background-accent-color: #f5f4fa;
+  --white-border-color: #EEEEEE;
 }
 
 /* Dropping */
@@ -28,8 +29,7 @@ body {
   font-family: var(--primery-font);
   color: var(--dark-accent-color);
 }
-ul,
-ol {
+ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -43,7 +43,6 @@ img {
 .list {
   list-style: none;
 }
-
 .container {
   width: 1200px;
   margin-left: auto;
@@ -56,6 +55,7 @@ img {
 .page-header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ECECEC;
 }
 .page-header-container {
   display: flex;
@@ -148,6 +148,7 @@ img {
   margin-left: auto;
   width: 696px;
   margin-bottom: 30px;
+  
 }
 .modal-open-btn {
   display: block;
@@ -181,12 +182,12 @@ img {
   margin-bottom: 50px;
 }
 
-/* ADVANTAGES */
-.advantages-section,
-.portfolio-section {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+/* ADVANTAGES */
 .advantages {
   display: flex;
   gap: 30px;
@@ -210,10 +211,7 @@ img {
 }
 
 /* SPECIALIZATION */
-.specialization-section {
-  padding-top: auto;
-  padding-bottom: 94px;
-}
+
 .specialization {
   display: flex;
   gap: 30px;
@@ -228,8 +226,6 @@ img {
 
 /* TEAM */
 .team-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: var(--white-background-accent-color);
 }
 .team-list {
@@ -313,14 +309,15 @@ img {
   flex-wrap: wrap;
   gap: 30px;
 }
-
 .portfolio-menu {
   display: flex;
   justify-content: center;
 }
-
 .portfolio-card {
   flex-basis: calc((100% - 60px) / 3);
+}
+.text-border {
+border: 1px solid var(--white-border-color);
 }
 .portfolio-open-btn {
   font-weight: 500;
@@ -334,14 +331,13 @@ img {
   background: var(--accent-color);
   color: var(--white-accent-color);
 }
-
 .portfolio-img-item {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
   color: var(--dark-accent-color);
+  margin-bottom: 4px;
 }
 
 .portfolio-img-name {
