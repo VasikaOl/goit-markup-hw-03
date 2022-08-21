@@ -267,8 +267,6 @@ img {
 }
 
 /* FOOTER */
-.footer-page-logo {
-}
 .address-footer {
   margin-top: 20px;
 }
@@ -314,10 +312,16 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  }
-  .portfolio-card {
-    flex-basis: calc((100% - 60px) / 3);
-  }
+}
+
+.portfolio-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-card {
+  flex-basis: calc((100% - 60px) / 3);
+}
 .portfolio-open-btn {
   font-weight: 500;
   font-size: 16px;
